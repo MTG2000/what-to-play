@@ -1,6 +1,8 @@
 import styled from "styled-components";
-import data from "../../api/data.json";
 import GameCard from "./GameCard";
+import { useState, useEffect } from "react";
+import { getAllInGenre } from "../../api/api";
+import { SessionStorage } from "../../utils/SessionStorage";
 
 const Root = styled.div`
   display: flex;
@@ -14,9 +16,15 @@ const Root = styled.div`
 `;
 
 function GamesList({ selectedGames, onClick }) {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    setData(getAllInGenre(SessionStorage.get("genre")));
+  }, []);
+
   return (
     <Root>
-      {data.allGames.map((game) => (
+      {data.map((game) => (
         <div className="card" key={game.id}>
           <GameCard
             id={game.id}

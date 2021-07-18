@@ -3,6 +3,10 @@ import { motion } from "framer-motion";
 import GamesList from "./GamesList";
 import { useState } from "react";
 import { Button } from "../SharedComponents";
+import { SessionStorage } from "../../utils/SessionStorage";
+import { useHistory } from "react-router-dom";
+import { getRecommended } from "../../api/api";
+
 const Root = styled.div`
   width: 100vw;
   min-height: 100vh;
@@ -24,6 +28,7 @@ const Root = styled.div`
 
 function FavGamesPage() {
   const [selectedGames, setSelectedGames] = useState([]);
+  const history = useHistory();
 
   const handleClick = (curId, isAdd) => {
     if (isAdd) {
@@ -32,6 +37,13 @@ function FavGamesPage() {
       setSelectedGames(selectedGames.filter((id) => id !== curId));
     }
   };
+
+  const handleNext = () => {
+    SessionStorage.set("fav-games", selectedGames);
+    history.push("/choose-fav-image");
+    getRecommended(SessionStorage.get("genre"), selectedGames);
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0, y: "100vh" }}
@@ -53,7 +65,7 @@ function FavGamesPage() {
             initial={{ opacity: 0, y: 200 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ scale: 1.2, boxShadow: "0 0 15px white" }}
-            href="/choose-image"
+            onClick={handleNext}
           >
             Next
           </Button>

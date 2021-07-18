@@ -3,61 +3,189 @@
         {
             "id": 1,
             "title": "danganronpa",
+            "age": "M",
+            "genre": [
+                "adventure",
+                "puzzles"
+            ],
+            "tags": [
+                "story",
+                "anime",
+                "music"
+            ],
             "img": "/images/danganronpa-mini.jpg"
         },
         {
             "id": 2,
             "title": "darkwood",
+            "age": "M",
+            "genre": [
+                "horror"
+            ],
+            "tags": [
+                "atmosphere",
+                "dark",
+                "indie"
+            ],
             "img": "/images/darkwood-mini.jpg"
         },
         {
             "id": 3,
             "title": "killing floor 2",
+            "age": "M",
+            "genre": [
+                "action",
+                "adventure"
+            ],
+            "tags": [
+                "fps",
+                "violent",
+                "multiplayer",
+                "fast-paced"
+            ],
             "img": "/images/killing-floor-2-mini.jpg"
         },
         {
             "id": 4,
             "title": "red dead redemption 2",
+            "age": "M",
+            "genre": [
+                "action",
+                "adventure"
+            ],
+            "tags": [
+                "story",
+                "music",
+                "world",
+                "atmosphere"
+            ],
             "img": "/images/red-dead-redemption-2-mini.jpg"
         },
         {
             "id": 5,
             "title": "doom",
+            "age": "M",
+            "genre": [
+                "action"
+            ],
+            "tags": [
+                "violent",
+                "music",
+                "fast-paced"
+            ],
             "img": "/images/doom-mini.jpg"
         },
         {
             "id": 6,
             "title": "final fantasy",
+            "age": "M",
+            "genre": [
+                "action",
+                "adventure"
+            ],
+            "tags": [
+                "world",
+                "story",
+                "rpg",
+                "fantasy"
+            ],
             "img": "/images/final-fantasy-mini.jpg"
         },
         {
             "id": 7,
             "title": "hotline miami 2",
+            "age": "M",
+            "genre": [
+                "action",
+                "adventure"
+            ],
+            "tags": [
+                "atmosphere",
+                "music",
+                "violent",
+                "fast-paced",
+                "dark",
+                "indie"
+            ],
             "img": "/images/hotline-miami-2-mini.jpg"
         },
         {
             "id": 8,
             "title": "outlast 2",
+            "age": "M",
+            "genre": [
+                "horror"
+            ],
+            "tags": [
+                "dark",
+                "atmosphere"
+            ],
             "img": "/images/outlast-2-mini.jpg"
         },
         {
             "id": 9,
             "title": "resident evil 2",
+            "age": "M",
+            "genre": [
+                "action",
+                "horror",
+                "puzzles"
+            ],
+            "tags": [
+                "atmosphere",
+                "story",
+                "puzzles"
+            ],
             "img": "/images/resident-evil-2-mini.jpg"
         },
         {
             "id": 10,
             "title": "the witcher 3",
+            "age": "M",
+            "genre": [
+                "action",
+                "adventure"
+            ],
+            "tags": [
+                "world",
+                "story",
+                "music",
+                "rpg",
+                "fantasy"
+            ],
             "img": "/images/the-witcher-3-mini.jpg"
         },
         {
             "id": 11,
             "title": "soma",
+            "age": "M",
+            "genre": [
+                "adventure",
+                "puzzles",
+                "horror"
+            ],
+            "tags": [
+                "atmosphere",
+                "world",
+                "story",
+                "dark",
+                "puzzles"
+            ],
             "img": "/images/soma-mini.jpg"
         },
         {
             "id": 12,
             "title": "wolfenstien",
+            "age": "M",
+            "genre": [
+                "action"
+            ],
+            "tags": [
+                "world",
+                "fps",
+                "music",
+                "fast-paced"
+            ],
             "img": "/images/wolfenstien-mini.jpg"
         }
     ]

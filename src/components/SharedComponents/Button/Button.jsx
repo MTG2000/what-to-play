@@ -18,7 +18,8 @@ function Button(props) {
   const history = useHistory();
 
   const handleClick = () => {
-    history.push(props.href);
+    if (props.onClick) props.onClick();
+    else if (props.href) history.push(props.href);
   };
 
   return (

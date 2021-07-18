@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import ActionIcon from "../../assets/icons/ActionIcon";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
+import { SessionStorage } from "../../utils/SessionStorage";
 
 const __padding = 150;
 const __width = 50;
@@ -142,7 +143,10 @@ function GenrePage() {
 
   const handleClick = (idx) => {
     setSelectedIdx(idx);
-    setTimeout(() => history.push("/choose-favourite-games"), 3000);
+    setTimeout(() => {
+      SessionStorage.set("genre", genres[idx].title.toLowerCase());
+      history.push("/choose-favourite-games");
+    }, 3000);
   };
 
   return (
@@ -155,6 +159,7 @@ function GenrePage() {
         <h1>What is your Favourite Genre</h1>
         {genres.map((g, i) => (
           <motion.div
+            key={i}
             variants={btnVariants}
             initial="init"
             animate={selectedIdx === i ? "selected" : "rest"}

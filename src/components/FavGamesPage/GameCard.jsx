@@ -8,11 +8,13 @@ const Root = styled.div`
   cursor: pointer;
   position: relative;
   text-transform: capitalize;
+  border-radius: 15px;
 
   img {
     width: 100%;
     height: 80%;
     object-fit: cover;
+    border-radius: inherit;
   }
 
   h6 {

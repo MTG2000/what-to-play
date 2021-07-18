@@ -1,6 +1,7 @@
 export class SessionStorage {
   static set(key, value) {
-    sessionStorage.setItem(key, JSON.stringify(value));
+    if (typeof value === "object") value = JSON.stringify(value);
+    sessionStorage.setItem(key, value);
   }
 
   static get(key) {
