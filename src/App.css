@@ -1,0 +1,21 @@
+:root {
+  --primary: rgb(73, 21, 69);
+
+  --fontVeryBig: 58px;
+  --fontBig: 48px;
+  --fontNormal: 32px;
+  --fontSmall: 20px;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(359deg, #222146, #272128);
+  color: white;
+  overflow: hidden;
+}
+
+ul li {
+  list-style: none;
+  cursor: pointer;
+}
