@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <AnimatePresence exitBeforeEnter initial={false}>
+      <AnimatePresence exitBeforeEnter={true}>
         <Switch location={location} key={location.key}>
           <Route path="/choose-age">
             <AgePage />

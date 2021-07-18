@@ -23,8 +23,8 @@ function Button(props) {
 
   return (
     <Root
-      animate={{ scale: 1, boxShadow: "0 0 10px white" }}
-      whileHover={{ scale: 1.2, boxShadow: "0 0 15px white" }}
+      animate={{ scale: 1, boxShadow: "0 0 10px 0px #FFFFFF" }}
+      whileHover={{ scale: 1.2, boxShadow: "0 0 15px 0px #FFFFFF" }}
       whileTap={{ scale: 0.9 }}
       as={motion.button}
       onClick={handleClick}

@@ -1,0 +1,64 @@
+{
+    "allGames": [
+        {
+            "id": 1,
+            "title": "danganronpa",
+            "img": "/images/danganronpa-mini.jpg"
+        },
+        {
+            "id": 2,
+            "title": "darkwood",
+            "img": "/images/darkwood-mini.jpg"
+        },
+        {
+            "id": 3,
+            "title": "killing floor 2",
+            "img": "/images/killing-floor-2-mini.jpg"
+        },
+        {
+            "id": 4,
+            "title": "red dead redemption 2",
+            "img": "/images/red-dead-redemption-2-mini.jpg"
+        },
+        {
+            "id": 5,
+            "title": "doom",
+            "img": "/images/doom-mini.jpg"
+        },
+        {
+            "id": 6,
+            "title": "final fantasy",
+            "img": "/images/final-fantasy-mini.jpg"
+        },
+        {
+            "id": 7,
+            "title": "hotline miami 2",
+            "img": "/images/hotline-miami-2-mini.jpg"
+        },
+        {
+            "id": 8,
+            "title": "outlast 2",
+            "img": "/images/outlast-2-mini.jpg"
+        },
+        {
+            "id": 9,
+            "title": "resident evil 2",
+            "img": "/images/resident-evil-2-mini.jpg"
+        },
+        {
+            "id": 10,
+            "title": "the witcher 3",
+            "img": "/images/the-witcher-3-mini.jpg"
+        },
+        {
+            "id": 11,
+            "title": "soma",
+            "img": "/images/soma-mini.jpg"
+        },
+        {
+            "id": 12,
+            "title": "wolfenstien",
+            "img": "/images/wolfenstien-mini.jpg"
+        }
+    ]
+}

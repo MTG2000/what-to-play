@@ -1,6 +1,8 @@
 :root {
   --primary: rgb(73, 21, 69);
 
+  --textLight: #1be5fe;
+
   --fontVeryBig: 58px;
   --fontBig: 48px;
   --fontNormal: 32px;

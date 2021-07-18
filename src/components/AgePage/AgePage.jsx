@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import RightArrowIcon from "../../assets/icons/RightArrow";
 import { useState } from "react";
 import { Button } from "../SharedComponents";
+import { SessionStorage } from "../../utils/SessionStorage";
 
 const Root = styled.div`
   width: 100vw;
@@ -70,7 +71,12 @@ const liArrowVariants = {
 const MotionRightArrowIcon = motion(RightArrowIcon);
 
 function AgePage() {
-  const [selectedIdx, setSelectedIdx] = useState(-1);
+  const [selectedIdx, setSelectedIdx] = useState(SessionStorage.get("age"));
+
+  const handleClick = (idx) => {
+    setSelectedIdx(idx);
+    SessionStorage.set("age", idx);
+  };
 
   return (
     <Root>
@@ -83,7 +89,7 @@ function AgePage() {
             animate={selectedIdx === i ? "selected" : "init"}
             whileHover={selectedIdx === i ? "selected" : "hover"}
             key={i}
-            onClick={() => setSelectedIdx(i)}
+            onClick={() => handleClick(i)}
           >
             <MotionRightArrowIcon
               variants={liArrowVariants}
