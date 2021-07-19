@@ -63,7 +63,7 @@ function GameCard({ id, title, img, onClick, isSelected }) {
       className={`${isSelected ? "selected" : ""}`}
     >
       <img src={img} alt={title} />
-      <h6>{title}</h6>
+      <h6>{title.replaceAll("-", " ")}</h6>
     </Root>
   );
 }

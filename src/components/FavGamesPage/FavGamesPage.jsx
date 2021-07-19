@@ -5,7 +5,6 @@ import { useState } from "react";
 import { Button } from "../SharedComponents";
 import { SessionStorage } from "../../utils/SessionStorage";
 import { useHistory } from "react-router-dom";
-import { getRecommended } from "../../api/api";
 
 const Root = styled.div`
   width: 100vw;
@@ -40,8 +39,8 @@ function FavGamesPage() {
 
   const handleNext = () => {
     SessionStorage.set("fav-games", selectedGames);
-    history.push("/choose-fav-image");
-    getRecommended(SessionStorage.get("genre"), selectedGames);
+    history.push("/choose-favourite-image");
+    // getRecommended(SessionStorage.get("genre"), selectedGames);
   };
 
   return (

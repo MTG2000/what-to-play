@@ -22,7 +22,7 @@ export function getRecommended(genre, favGames, age) {
   let filteredGames = [];
   for (let i = 0; i < jsonData.allGames.length; i++) {
     const game = jsonData.allGames[i];
-    if (!game.genre.includes(genre)) continue;
+    if (!game.genre.includes(genre) || favGames.includes(game.id)) continue;
     let res = { rating: 0, idx: i };
 
     game.genre.forEach((g) => {

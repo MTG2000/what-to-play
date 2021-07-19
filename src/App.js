@@ -5,6 +5,7 @@ import AgePage from "./components/AgePage/AgePage";
 import { AnimatePresence } from "framer-motion";
 import GenrePage from "./components/GenrePage/GenrePage";
 import FavGamesPage from "./components/FavGamesPage/FavGamesPage";
+import FavImagePage from "./components/FavImagePage/FavImagePage";
 
 function App() {
   const location = useLocation();
@@ -21,6 +22,9 @@ function App() {
           </Route>
           <Route path="/choose-favourite-games">
             <FavGamesPage />
+          </Route>
+          <Route path="/choose-favourite-image">
+            <FavImagePage />
           </Route>
           <Route exact path="/">
             <StartPage />

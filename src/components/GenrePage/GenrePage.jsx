@@ -4,6 +4,9 @@ import ActionIcon from "../../assets/icons/ActionIcon";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { SessionStorage } from "../../utils/SessionStorage";
+import AdventureIcon from "../../assets/icons/AdventureIcon";
+import PuzzlesIcon from "../../assets/icons/PuzzlesIcon";
+import HorrorIcon from "../../assets/icons/HorrorIcon";
 
 const __padding = 150;
 const __width = 50;
@@ -132,9 +135,9 @@ const btnContentVariants = {
 
 const genres = [
   { title: "Action", icon: ActionIcon },
-  { title: "Adventure", icon: ActionIcon },
-  { title: "Puzzles", icon: ActionIcon },
-  { title: "Sports", icon: ActionIcon },
+  { title: "Adventure", icon: AdventureIcon },
+  { title: "Puzzles", icon: PuzzlesIcon },
+  { title: "Horror", icon: HorrorIcon },
 ];
 
 function GenrePage() {
@@ -146,7 +149,7 @@ function GenrePage() {
     setTimeout(() => {
       SessionStorage.set("genre", genres[idx].title.toLowerCase());
       history.push("/choose-favourite-games");
-    }, 3000);
+    }, 6000);
   };
 
   return (
@@ -156,7 +159,7 @@ function GenrePage() {
       exit={{ opacity: 0, y: "-100vh", transition: { ease: "easeInOut" } }}
     >
       <Root>
-        <h1>What is your Favourite Genre</h1>
+        <h1>Pick your Favourite Genre</h1>
         {genres.map((g, i) => (
           <motion.div
             key={i}
@@ -172,7 +175,10 @@ function GenrePage() {
               custom={i}
               className="content"
             >
-              <g.icon style={{ width: 60, height: 60, marginBottom: 0 }} />{" "}
+              <g.icon
+                style={{ width: 60, height: 60, marginBottom: 0 }}
+                animate={selectedIdx === i}
+              />{" "}
               <span>{g.title}</span>{" "}
             </motion.div>
           </motion.div>
