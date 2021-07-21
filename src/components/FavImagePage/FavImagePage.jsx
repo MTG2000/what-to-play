@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import { withTransition } from "../../utils/withTransition";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "../SharedComponents";
+import RecommendationSys from "../../api/gamesRecommender";
 
 const Root = styled.div`
   width: 100vw;
@@ -100,6 +101,16 @@ const types = [
 
 function FavImagePage() {
   const [selectedIdx, setSelectedIdx] = useState(-1);
+
+  useEffect(() => {
+    if (selectedIdx !== -1)
+      RecommendationSys.favImg = types[selectedIdx].values;
+  }, [selectedIdx]);
+
+  useEffect(() => {
+    document.dispatchEvent(new CustomEvent("change-progress", { detail: 80 }));
+  }, []);
+
   return (
     <Root>
       <h1>Choose the Image that you think is more beautiful</h1>

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Button } from "../SharedComponents";
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 const Root = styled.div`
   width: 100vw;
@@ -22,6 +23,10 @@ const Root = styled.div`
 `;
 
 function StartPage() {
+  useEffect(() => {
+    document.dispatchEvent(new CustomEvent("change-progress", { detail: 0 }));
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: "-100vh" }}

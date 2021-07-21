@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { withTransition } from "../../utils/withTransition";
+import GamesList from "./GamesList";
 import { useEffect } from "react";
-import RecommendationSys from "../../api/gamesRecommender";
-import { useHistory } from "react-router-dom";
 
 const Root = styled.div`
   width: 100vw;
@@ -15,6 +14,7 @@ const Root = styled.div`
 
   h1 {
     font-size: var(--fontNormal);
+    margin-bottom: 30px;
   }
 
   p {
@@ -33,29 +33,17 @@ const Root = styled.div`
   }
 `;
 
-function LoadingPage() {
-  const history = useHistory();
-
+function RecommendationsPage() {
   useEffect(() => {
-    RecommendationSys.processData();
-    const timeout = setTimeout(() => {
-      history.push("/recommendations-page");
-    }, 2000);
-
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, [history]);
-
-  useEffect(() => {
-    document.dispatchEvent(new CustomEvent("change-progress", { detail: 100 }));
+    document.dispatchEvent(new CustomEvent("change-progress", { detail: 101 }));
   }, []);
 
   return (
     <Root>
-      <h1>Loading</h1>
+      <h1> We Recommend These Games for you</h1>
+      <GamesList />
     </Root>
   );
 }
 
-export default withTransition(LoadingPage);
+export default withTransition(RecommendationsPage);

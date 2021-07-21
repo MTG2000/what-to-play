@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import GameCard from "./GameCard";
 import { useState, useEffect } from "react";
-import { getAllInGenre } from "../../api/api";
+import { getGamesByIdxs } from "../../api/api";
 import RecommendationSys from "../../api/gamesRecommender";
 
 const Root = styled.div`
@@ -19,20 +19,20 @@ function GamesList({ selectedGames, onClick }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    setData(getAllInGenre(RecommendationSys.genre));
+    setData(
+      getGamesByIdxs(
+        RecommendationSys.getResult()
+          .slice(0, 4)
+          .map((g) => g.idx)
+      )
+    );
   }, []);
 
   return (
     <Root>
       {data.map((game) => (
         <div className="card" key={game.id}>
-          <GameCard
-            id={game.id}
-            title={game.title}
-            img={game.img}
-            onClick={onClick}
-            isSelected={selectedGames.some((id) => id === game.id)}
-          />
+          <GameCard game={game} onClick={onClick} />
         </div>
       ))}
     </Root>

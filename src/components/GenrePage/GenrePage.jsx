@@ -1,12 +1,12 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import ActionIcon from "../../assets/icons/ActionIcon";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
-import { SessionStorage } from "../../utils/SessionStorage";
 import AdventureIcon from "../../assets/icons/AdventureIcon";
 import PuzzlesIcon from "../../assets/icons/PuzzlesIcon";
 import HorrorIcon from "../../assets/icons/HorrorIcon";
+import RecommendationSys from "../../api/gamesRecommender";
 
 const __padding = 150;
 const __width = 50;
@@ -147,10 +147,14 @@ function GenrePage() {
   const handleClick = (idx) => {
     setSelectedIdx(idx);
     setTimeout(() => {
-      SessionStorage.set("genre", genres[idx].title.toLowerCase());
+      RecommendationSys.genre = genres[idx].title.toLowerCase();
       history.push("/choose-favourite-games");
     }, 6000);
   };
+
+  useEffect(() => {
+    document.dispatchEvent(new CustomEvent("change-progress", { detail: 40 }));
+  }, []);
 
   return (
     <motion.div

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import GamesList from "./GamesList";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "../SharedComponents";
-import { SessionStorage } from "../../utils/SessionStorage";
 import { useHistory } from "react-router-dom";
+import RecommendationSys from "../../api/gamesRecommender";
 
 const Root = styled.div`
   width: 100vw;
@@ -38,10 +38,13 @@ function FavGamesPage() {
   };
 
   const handleNext = () => {
-    SessionStorage.set("fav-games", selectedGames);
+    RecommendationSys.favGames = selectedGames;
     history.push("/choose-favourite-image");
-    // getRecommended(SessionStorage.get("genre"), selectedGames);
   };
+
+  useEffect(() => {
+    document.dispatchEvent(new CustomEvent("change-progress", { detail: 60 }));
+  }, []);
 
   return (
     <motion.div

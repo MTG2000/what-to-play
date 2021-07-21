@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { withTransition } from "../../utils/withTransition";
 import { motion } from "framer-motion";
 import RightArrowIcon from "../../assets/icons/RightArrow";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "../SharedComponents";
 import { SessionStorage } from "../../utils/SessionStorage";
 
@@ -77,6 +77,10 @@ function AgePage() {
     setSelectedIdx(idx);
     SessionStorage.set("age", idx);
   };
+
+  useEffect(() => {
+    document.dispatchEvent(new CustomEvent("change-progress", { detail: 20 }));
+  }, []);
 
   return (
     <Root>
