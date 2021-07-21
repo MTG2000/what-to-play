@@ -36,6 +36,7 @@ const Root = styled.div`
 
 function RecommendationsPage() {
   useEffect(() => {
+    document.title = "Your Recommendations";
     document.dispatchEvent(new CustomEvent("change-progress", { detail: 101 }));
   }, []);
 

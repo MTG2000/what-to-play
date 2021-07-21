@@ -79,6 +79,7 @@ function AgePage() {
   };
 
   useEffect(() => {
+    document.title = "How Old Are You";
     document.dispatchEvent(new CustomEvent("change-progress", { detail: 20 }));
   }, []);
 

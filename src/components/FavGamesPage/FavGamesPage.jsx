@@ -43,6 +43,7 @@ function FavGamesPage() {
   };
 
   useEffect(() => {
+    document.title = "Your Favourite Games";
     document.dispatchEvent(new CustomEvent("change-progress", { detail: 60 }));
   }, []);
 

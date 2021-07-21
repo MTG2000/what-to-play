@@ -153,6 +153,7 @@ function GenrePage() {
   };
 
   useEffect(() => {
+    document.title = "Your Favourite Genre";
     document.dispatchEvent(new CustomEvent("change-progress", { detail: 40 }));
   }, []);
 

@@ -49,6 +49,7 @@ function LoadingPage() {
   }, [history]);
 
   useEffect(() => {
+    document.title = "Processing Results";
     document.dispatchEvent(new CustomEvent("change-progress", { detail: 100 }));
   }, []);
 

@@ -33,6 +33,7 @@ const Root = styled.div`
 
 function StartPage() {
   useEffect(() => {
+    document.title = "What To Play";
     document.dispatchEvent(new CustomEvent("change-progress", { detail: 0 }));
   }, []);
 
@@ -43,10 +44,10 @@ function StartPage() {
       exit={{ opacity: 0, x: "-100vw", transition: { ease: "easeInOut" } }}
     >
       <Root as={motion.div}>
-        <h1>Games Recommendations</h1>
+        <h1>What To Play</h1>
         <p>
-          We Suggest you some games that we think are Relevant According to a
-          few quick questions
+          Answer a few quick questions, and get our suggestions for games that
+          we think you'll like.
         </p>
         <Button
           animate={{

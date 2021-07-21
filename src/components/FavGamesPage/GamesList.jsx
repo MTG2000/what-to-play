@@ -3,6 +3,7 @@ import GameCard from "./GameCard";
 import { useState, useEffect } from "react";
 import { getAllInGenre } from "../../api/api";
 import RecommendationSys from "../../api/gamesRecommender";
+import { shuffle } from "../../utils/functions";
 
 const Root = styled.div`
   display: flex;
@@ -19,7 +20,10 @@ function GamesList({ selectedGames, onClick }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    setData(getAllInGenre(RecommendationSys.genre));
+    let data = getAllInGenre(RecommendationSys.genre);
+    shuffle(data);
+    data = data.slice(0, data.length - (data.length % 3));
+    setData(data);
   }, []);
 
   return (

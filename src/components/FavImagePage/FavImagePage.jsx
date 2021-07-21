@@ -118,6 +118,7 @@ function FavImagePage() {
   }, [selectedIdx]);
 
   useEffect(() => {
+    document.title = "Choose the More Beautiful Image";
     document.dispatchEvent(new CustomEvent("change-progress", { detail: 80 }));
   }, []);
 
