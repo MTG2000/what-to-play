@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { withTransition } from "../../utils/withTransition";
 import GamesList from "./GamesList";
 import { useEffect } from "react";
+import { Button } from "../SharedComponents";
 
 const Root = styled.div`
   width: 100vw;
@@ -42,6 +43,7 @@ function RecommendationsPage() {
     <Root>
       <h1> We Recommend These Games for you</h1>
       <GamesList />
+      <Button href="/">Start Again</Button>
     </Root>
   );
 }

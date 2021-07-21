@@ -25,6 +25,7 @@ const Root = styled.div`
     justify-content: center;
     align-items: center;
     font-size: var(--fontSmall);
+    font-weight: bold;
   }
 `;
 

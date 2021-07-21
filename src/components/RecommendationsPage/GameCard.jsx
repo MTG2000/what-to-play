@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { Dialog } from "../SharedComponents";
+import SteamIcon from "../../assets/icons/SteamIcon";
 
 const Root = styled.div`
   width: 500px;
@@ -32,6 +33,8 @@ const Root = styled.div`
     justify-content: center;
     align-items: center;
     font-size: var(--fontSmall);
+
+    font-weight: bold;
   }
 `;
 
@@ -64,11 +67,24 @@ const DialogContent = styled.div`
     margin: 0;
     font-size: var(--fontNormal);
     text-transform: capitalize;
+    font-weight: bold;
   }
 
   p {
     font-size: 16px;
     letter-spacing: 0.6px;
+  }
+
+  a {
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-left: auto;
+    display: block;
+    font-size: 18px;
+    box-shadow: 0 0 10px #2196f3;
   }
 `;
 
@@ -92,6 +108,11 @@ const cardVariants = {
     scale: 1.02,
     boxShadow: "0 0 20px 15px #00ffff",
   },
+};
+
+const btnVariants = {
+  init: { boxShadow: " 0 0 10px 1px #2196f3" },
+  hover: { boxShadow: " 0 0 14px 3px #2196f3" },
 };
 
 function GameCard({ game, onClick }) {
@@ -125,6 +146,25 @@ function GameCard({ game, onClick }) {
               laboriosam culpa autem voluptatem porro perferendis vero
               doloremque, eos ipsam molestiae possimus temporibus nihil!
             </p>
+            <div style={{ display: "flex", justifyContent: "flex-end" }}>
+              <motion.a
+                variants={btnVariants}
+                initial="init"
+                whileHover="hover"
+                href={game.storePage}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <SteamIcon
+                  style={{
+                    display: "inline-block",
+                    width: 30,
+                    verticalAlign: "middle",
+                  }}
+                />{" "}
+                Store Page
+              </motion.a>
+            </div>
           </div>
         </DialogContent>
       </Dialog>

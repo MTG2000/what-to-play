@@ -10,6 +10,7 @@ const Root = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 20px;
 
   h1 {
     font-size: var(--fontVeryBig);
@@ -19,6 +20,14 @@ const Root = styled.div`
   p {
     font-size: var(--fontSmall);
     margin-bottom: 60px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
   }
 `;
 
@@ -54,6 +63,17 @@ function StartPage() {
         >
           Start
         </Button>
+        <footer>
+          Made by{" "}
+          <a
+            href="https://mtgdev.netlify.com"
+            target="_blank"
+            rel="noreferrer"
+            style={{ color: "var(--textLight)" }}
+          >
+            MTG
+          </a>
+        </footer>
       </Root>
     </motion.div>
   );

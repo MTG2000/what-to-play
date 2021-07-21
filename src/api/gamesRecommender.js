@@ -49,6 +49,8 @@ class RecommenderSystem {
       else this.points[g] = 1;
     }
 
+    console.log(this.points);
+
     let filteredGames = [];
     for (let i = 0; i < jsonData.allGames.length; i++) {
       const game = jsonData.allGames[i];
