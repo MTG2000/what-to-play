@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/what-to-play/static/css/main.b22b76be.chunk.css",
-    "main.js": "/what-to-play/static/js/main.65da3274.chunk.js",
-    "main.js.map": "/what-to-play/static/js/main.65da3274.chunk.js.map",
+    "main.js": "/what-to-play/static/js/main.eb47789c.chunk.js",
+    "main.js.map": "/what-to-play/static/js/main.eb47789c.chunk.js.map",
     "runtime-main.js": "/what-to-play/static/js/runtime-main.827c6221.js",
     "runtime-main.js.map": "/what-to-play/static/js/runtime-main.827c6221.js.map",
     "static/js/2.55a13a23.chunk.js": "/what-to-play/static/js/2.55a13a23.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.827c6221.js",
     "static/js/2.55a13a23.chunk.js",
     "static/css/main.b22b76be.chunk.css",
-    "static/js/main.65da3274.chunk.js"
+    "static/js/main.eb47789c.chunk.js"
   ]
 }
