@@ -14,8 +14,8 @@
                 "music"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/danganronpa-min.jpg",
-            "img": "/images/thumbs/danganronpa-mini.jpg"
+            "cover": "/what-to-play/images/covers/danganronpa-min.jpg",
+            "img": "/what-to-play/images/thumbs/danganronpa-mini.jpg"
         },
         {
             "id": 2,
@@ -30,8 +30,8 @@
                 "indie"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/darkwood-min.jpg",
-            "img": "/images/thumbs/darkwood-mini.jpg"
+            "cover": "/what-to-play/images/covers/darkwood-min.jpg",
+            "img": "/what-to-play/images/thumbs/darkwood-mini.jpg"
         },
         {
             "id": 3,
@@ -48,8 +48,8 @@
                 "fast-paced"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/killing-floor-2-min.jpg",
-            "img": "/images/thumbs/killing-floor-2-mini.jpg"
+            "cover": "/what-to-play/images/covers/killing-floor-2-min.jpg",
+            "img": "/what-to-play/images/thumbs/killing-floor-2-mini.jpg"
         },
         {
             "id": 4,
@@ -66,8 +66,8 @@
                 "atmosphere"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/red-dead-redemption-2-min.jpg",
-            "img": "/images/thumbs/red-dead-redemption-2-mini.jpg"
+            "cover": "/what-to-play/images/covers/red-dead-redemption-2-min.jpg",
+            "img": "/what-to-play/images/thumbs/red-dead-redemption-2-mini.jpg"
         },
         {
             "id": 5,
@@ -82,8 +82,8 @@
                 "fast-paced"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/doom-min.jpg",
-            "img": "/images/thumbs/doom-mini.jpg"
+            "cover": "/what-to-play/images/covers/doom-min.jpg",
+            "img": "/what-to-play/images/thumbs/doom-mini.jpg"
         },
         {
             "id": 6,
@@ -100,8 +100,8 @@
                 "fantasy"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/final-fantasy-min.jpg",
-            "img": "/images/thumbs/final-fantasy-mini.jpg"
+            "cover": "/what-to-play/images/covers/final-fantasy-min.jpg",
+            "img": "/what-to-play/images/thumbs/final-fantasy-mini.jpg"
         },
         {
             "id": 7,
@@ -120,8 +120,8 @@
                 "indie"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/hotline-miami-2-min.jpg",
-            "img": "/images/thumbs/hotline-miami-2-mini.jpg"
+            "cover": "/what-to-play/images/covers/hotline-miami-2-min.jpg",
+            "img": "/what-to-play/images/thumbs/hotline-miami-2-mini.jpg"
         },
         {
             "id": 8,
@@ -135,8 +135,8 @@
                 "atmosphere"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/outlast-2-min.jpg",
-            "img": "/images/thumbs/outlast-2-mini.jpg"
+            "cover": "/what-to-play/images/covers/outlast-2-min.jpg",
+            "img": "/what-to-play/images/thumbs/outlast-2-mini.jpg"
         },
         {
             "id": 9,
@@ -153,8 +153,8 @@
                 "puzzles"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/resident-evil-2-min.jpg",
-            "img": "/images/thumbs/resident-evil-2-mini.jpg"
+            "cover": "/what-to-play/images/covers/resident-evil-2-min.jpg",
+            "img": "/what-to-play/images/thumbs/resident-evil-2-mini.jpg"
         },
         {
             "id": 10,
@@ -172,8 +172,8 @@
                 "fantasy"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/the-witcher-3-min.jpg",
-            "img": "/images/thumbs/the-witcher-3-mini.jpg"
+            "cover": "/what-to-play/images/covers/the-witcher-3-min.jpg",
+            "img": "/what-to-play/images/thumbs/the-witcher-3-mini.jpg"
         },
         {
             "id": 11,
@@ -192,8 +192,8 @@
                 "puzzles"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/soma-min.jpg",
-            "img": "/images/thumbs/soma-mini.jpg"
+            "cover": "/what-to-play/images/covers/soma-min.jpg",
+            "img": "/what-to-play/images/thumbs/soma-mini.jpg"
         },
         {
             "id": 12,
@@ -209,8 +209,8 @@
                 "fast-paced"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/wolfenstien-min.jpg",
-            "img": "/images/thumbs/wolfenstien-mini.jpg"
+            "cover": "/what-to-play/images/covers/wolfenstien-min.jpg",
+            "img": "/what-to-play/images/thumbs/wolfenstien-mini.jpg"
         },
         {
             "id": 13,
@@ -226,8 +226,8 @@
                 "atmosphere"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/alan-wake-min.jpg",
-            "img": "/images/thumbs/alan-wake-min.jpg"
+            "cover": "/what-to-play/images/covers/alan-wake-min.jpg",
+            "img": "/what-to-play/images/thumbs/alan-wake-min.jpg"
         },
         {
             "id": 14,
@@ -242,8 +242,8 @@
                 "dark"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/alien-isolation-min.jpg",
-            "img": "/images/thumbs/alien-isolation-min.jpg"
+            "cover": "/what-to-play/images/covers/alien-isolation-min.jpg",
+            "img": "/what-to-play/images/thumbs/alien-isolation-min.jpg"
         },
         {
             "id": 15,
@@ -260,8 +260,8 @@
                 "puzzles"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/amnesia-min.jpg",
-            "img": "/images/thumbs/amnesia-min.jpg"
+            "cover": "/what-to-play/images/covers/amnesia-min.jpg",
+            "img": "/what-to-play/images/thumbs/amnesia-min.jpg"
         },
         {
             "id": 16,
@@ -278,8 +278,8 @@
                 "beat-em-up"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/batman-min.jpg",
-            "img": "/images/thumbs/batman-min.jpg"
+            "cover": "/what-to-play/images/covers/batman-min.jpg",
+            "img": "/what-to-play/images/thumbs/batman-min.jpg"
         },
         {
             "id": 17,
@@ -297,8 +297,8 @@
                 "violent"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/deus-ex-min.jpg",
-            "img": "/images/thumbs/deus-ex-min.jpg"
+            "cover": "/what-to-play/images/covers/deus-ex-min.jpg",
+            "img": "/what-to-play/images/thumbs/deus-ex-min.jpg"
         },
         {
             "id": 18,
@@ -316,8 +316,8 @@
                 "rpg"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/devil-may-cry-min.jpg",
-            "img": "/images/thumbs/devil-may-cry-min.jpg"
+            "cover": "/what-to-play/images/covers/devil-may-cry-min.jpg",
+            "img": "/what-to-play/images/thumbs/devil-may-cry-min.jpg"
         },
         {
             "id": 19,
@@ -334,8 +334,8 @@
                 "fps"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/far-cry-min.jpg",
-            "img": "/images/thumbs/far-cry-min.jpg"
+            "cover": "/what-to-play/images/covers/far-cry-min.jpg",
+            "img": "/what-to-play/images/thumbs/far-cry-min.jpg"
         },
         {
             "id": 20,
@@ -353,8 +353,8 @@
                 "music"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/FEAR-min.jpg",
-            "img": "/images/thumbs/FEAR-min.jpg"
+            "cover": "/what-to-play/images/covers/fear-min.jpg",
+            "img": "/what-to-play/images/thumbs/fear-min.jpg"
         },
         {
             "id": 21,
@@ -372,8 +372,8 @@
                 "music"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/god-of-war-min.jpg",
-            "img": "/images/thumbs/god-of-war-min.jpg"
+            "cover": "/what-to-play/images/covers/god-of-war-min.jpg",
+            "img": "/what-to-play/images/thumbs/god-of-war-min.jpg"
         },
         {
             "id": 22,
@@ -390,8 +390,8 @@
                 "violent"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/gta-v-min.jpg",
-            "img": "/images/thumbs/gta-v-min.jpeg"
+            "cover": "/what-to-play/images/covers/gta-v-min.jpg",
+            "img": "/what-to-play/images/thumbs/gta-v-min.jpeg"
         },
         {
             "id": 23,
@@ -408,8 +408,8 @@
                 "story"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/inside-min.jpg",
-            "img": "/images/thumbs/inside-min.jpg"
+            "cover": "/what-to-play/images/covers/inside-min.jpg",
+            "img": "/what-to-play/images/thumbs/inside-min.jpg"
         },
         {
             "id": 24,
@@ -424,8 +424,8 @@
                 "world"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/life-is-strange-min.jpg",
-            "img": "/images/thumbs/life-is-strange-min.jpg"
+            "cover": "/what-to-play/images/covers/life-is-strange-min.jpg",
+            "img": "/what-to-play/images/thumbs/life-is-strange-min.jpg"
         },
         {
             "id": 25,
@@ -442,8 +442,8 @@
                 "indie"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/limbo-min.jpg",
-            "img": "/images/thumbs/limbo-min.jpg"
+            "cover": "/what-to-play/images/covers/limbo-min.jpg",
+            "img": "/what-to-play/images/thumbs/limbo-min.jpg"
         },
         {
             "id": 26,
@@ -462,8 +462,8 @@
                 "story"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/little-nightmares-min.jpg",
-            "img": "/images/thumbs/little-nightmares-min.jpg"
+            "cover": "/what-to-play/images/covers/little-nightmares-min.jpg",
+            "img": "/what-to-play/images/thumbs/little-nightmares-min.jpg"
         },
         {
             "id": 27,
@@ -482,8 +482,8 @@
                 "rpg"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/nier-automata-min.jpg",
-            "img": "/images/thumbs/nier-automata-min.jpeg"
+            "cover": "/what-to-play/images/covers/nier-automata-min.jpg",
+            "img": "/what-to-play/images/thumbs/nier-automata-min.jpeg"
         },
         {
             "id": 28,
@@ -500,8 +500,8 @@
                 "world"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/observer-min.jpg",
-            "img": "/images/thumbs/observer-min.jpg"
+            "cover": "/what-to-play/images/covers/observer-min.jpg",
+            "img": "/what-to-play/images/thumbs/observer-min.jpg"
         },
         {
             "id": 29,
@@ -518,8 +518,8 @@
                 "indie"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/ori-min.jpg",
-            "img": "/images/thumbs/ori-min.jpg"
+            "cover": "/what-to-play/images/covers/ori-min.jpg",
+            "img": "/what-to-play/images/thumbs/ori-min.jpg"
         },
         {
             "id": 30,
@@ -534,8 +534,8 @@
                 "atmosphere"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/portal-min.jpg",
-            "img": "/images/thumbs/portal-min.jpg"
+            "cover": "/what-to-play/images/covers/portal-min.jpg",
+            "img": "/what-to-play/images/thumbs/portal-min.jpg"
         },
         {
             "id": 31,
@@ -554,8 +554,8 @@
                 "world"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/silent-hill-min.jpg",
-            "img": "/images/thumbs/silent-hill-min.jpg"
+            "cover": "/what-to-play/images/covers/silent-hill-min.jpg",
+            "img": "/what-to-play/images/thumbs/silent-hill-min.jpg"
         },
         {
             "id": 32,
@@ -575,8 +575,8 @@
                 "music"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/the-cat-lady-min.jpg",
-            "img": "/images/thumbs/the-cat-lady-min.jpg"
+            "cover": "/what-to-play/images/covers/the-cat-lady-min.jpg",
+            "img": "/what-to-play/images/thumbs/the-cat-lady-min.jpg"
         },
         {
             "id": 33,
@@ -590,8 +590,8 @@
                 "indie"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/the-room-min.jpg",
-            "img": "/images/thumbs/the-room-min.jpg"
+            "cover": "/what-to-play/images/covers/the-room-min.jpg",
+            "img": "/what-to-play/images/thumbs/the-room-min.jpg"
         },
         {
             "id": 34,
@@ -607,8 +607,8 @@
                 "story"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/the-talos-principle-min.jpg",
-            "img": "/images/thumbs/the-talos-principle-min.jpg"
+            "cover": "/what-to-play/images/covers/the-talos-principle-min.jpg",
+            "img": "/what-to-play/images/thumbs/the-talos-principle-min.jpg"
         },
         {
             "id": 35,
@@ -617,8 +617,8 @@
             "genre": [],
             "tags": [],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/the-wolf-among-us-min.jpg",
-            "img": "/images/thumbs/the-wolf-among-us-min.jpg"
+            "cover": "/what-to-play/images/covers/the-wolf-among-us-min.jpg",
+            "img": "/what-to-play/images/thumbs/the-wolf-among-us-min.jpg"
         },
         {
             "id": 36,
@@ -635,8 +635,8 @@
                 "world"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/tomb-raider-min.jpg",
-            "img": "/images/thumbs/tomb-raider-min.jpg"
+            "cover": "/what-to-play/images/covers/tomb-raider-min.jpg",
+            "img": "/what-to-play/images/thumbs/tomb-raider-min.jpg"
         },
         {
             "id": 37,
@@ -652,8 +652,8 @@
                 "atmosphere"
             ],
             "storePage": "https://store.steampowered.com/",
-            "cover": "/images/covers/until-dawn-min.jpg",
-            "img": "/images/thumbs/until-dawn-min.jpg"
+            "cover": "/what-to-play/images/covers/until-dawn-min.jpg",
+            "img": "/what-to-play/images/thumbs/until-dawn-min.jpg"
         }
     ]
 }
