@@ -3,6 +3,7 @@ import { withTransition } from "../../utils/withTransition";
 import { useEffect } from "react";
 import RecommendationSys from "../../api/gamesRecommender";
 import { useHistory } from "react-router-dom";
+import CpuIcon from "../../assets/icons/CpuIcon";
 
 const Root = styled.div`
   width: 100vw;
@@ -40,7 +41,7 @@ function LoadingPage() {
     RecommendationSys.processData();
     const timeout = setTimeout(() => {
       history.push("/recommendations-page");
-    }, 2000);
+    }, 7000);
 
     return () => {
       clearTimeout(timeout);
@@ -53,7 +54,15 @@ function LoadingPage() {
 
   return (
     <Root>
-      <h1>Loading</h1>
+      <h1>Processing...</h1>
+      <CpuIcon
+        style={{
+          width: "50vw",
+          maxWidth: 300,
+          maxHeight: 300,
+          marginTop: "var(--spaceNormal)",
+        }}
+      />
     </Root>
   );
 }

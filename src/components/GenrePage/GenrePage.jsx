@@ -8,17 +8,17 @@ import PuzzlesIcon from "../../assets/icons/PuzzlesIcon";
 import HorrorIcon from "../../assets/icons/HorrorIcon";
 import RecommendationSys from "../../api/gamesRecommender";
 
-const __padding = 150;
+const __padding = 100;
 const __width = 50;
 const __vw = window.innerWidth;
 const __vh = window.innerHeight;
 
 const icons = [
   { x: __padding, y: __padding },
-  { x: __vw - __padding - __width + __width / 2, y: __padding },
+  { x: __vw - __padding, y: __padding },
   { x: __padding, y: __vh - __padding - __width },
   {
-    x: __vw - __padding - __width + __width / 2,
+    x: __vw - __padding,
     y: __vh - __padding - __width,
   },
 ];

@@ -30,6 +30,7 @@ class RecommenderSystem {
   }
 
   processData() {
+    this.points = {};
     for (const i of this._favGames) {
       const game = jsonData.allGames.find((g) => g.id === i);
       game.genre.forEach((g) => {
@@ -53,7 +54,6 @@ class RecommenderSystem {
       const game = jsonData.allGames[i];
       if (!game.genre.includes(this._genre) || this._favGames.includes(game.id))
         continue;
-      console.log("hh");
       let res = { rating: 0, idx: i };
 
       game.genre.forEach((g) => {
@@ -72,7 +72,10 @@ class RecommenderSystem {
       if (g1.rating > g2.rating) return -1;
       return 1;
     });
-    sessionStorage.setItem("filter-games", JSON.stringify(filteredGames));
+    sessionStorage.setItem(
+      "filter-games",
+      JSON.stringify(filteredGames.slice(0, 4))
+    );
   }
 
   getResult() {

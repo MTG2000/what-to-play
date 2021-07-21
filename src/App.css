@@ -7,6 +7,19 @@
   --fontBig: 48px;
   --fontNormal: 32px;
   --fontSmall: 20px;
+
+  --spaceNormal: 50px;
+}
+
+@media screen and (max-width: 668px) {
+  :root {
+    --fontVeryBig: 38px;
+    --fontBig: 28px;
+    --fontNormal: 22px;
+    --fontSmall: 16px;
+
+    --spaceNormal: 30px;
+  }
 }
 
 .App {

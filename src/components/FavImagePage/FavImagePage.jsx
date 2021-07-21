@@ -69,7 +69,12 @@ const Root = styled.div`
       clip-path: polygon(100% 0, 100% 0, 100% 100%, 30% 100%);
     }
 
-    img:hover,
+    @media (hover: hover) and (pointer: fine) {
+      img:hover {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+    }
+
     img.selected {
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
@@ -79,7 +84,11 @@ const Root = styled.div`
     box-shadow: 0 0 12px 3px cyan;
   }
 
-  .container:hover img,
+  @media (hover: hover) and (pointer: fine) {
+    .container:hover img {
+      clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    }
+  }
   .container.selected img {
     clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
   }
@@ -87,9 +96,10 @@ const Root = styled.div`
   .container.selected img.selected {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
-
-  .container img:hover {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+  @media (hover: hover) and (pointer: fine) {
+    .container img:hover {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%) !important;
+    }
   }
 `;
 

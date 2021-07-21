@@ -19,13 +19,7 @@ function GamesList({ selectedGames, onClick }) {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    setData(
-      getGamesByIdxs(
-        RecommendationSys.getResult()
-          .slice(0, 4)
-          .map((g) => g.idx)
-      )
-    );
+    setData(getGamesByIdxs(RecommendationSys.getResult().map((g) => g.idx)));
   }, []);
 
   return (

@@ -12,6 +12,11 @@ const Root = styled.div`
   text-transform: capitalize;
   border-radius: 15px;
 
+  @media screen and (max-width: 668px) {
+    width: 320px;
+    height: 205px;
+  }
+
   img {
     width: 100%;
     height: 80%;
@@ -105,13 +110,13 @@ function GameCard({ game, onClick }) {
           setDialogOpen(true);
         }}
       >
-        <img src={game.img} alt={game.title} />
+        <img src={game.cover} alt={game.title} />
         <h6>{game.title.replaceAll("-", " ")}</h6>
       </Root>
       <Dialog isOpen={dialogOpen} onClose={() => setDialogOpen(false)}>
         <DialogContent>
           <div className="img-container">
-            <img src={game.img} alt={game.title} />
+            <img src={game.cover} alt={game.title} />
           </div>
           <div className="dialog-body">
             <h6>{game.title.replaceAll("-", " ")}</h6>
