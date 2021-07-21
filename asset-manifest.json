@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/what-to-play/static/css/main.b22b76be.chunk.css",
+    "main.js": "/what-to-play/static/js/main.36ac38b3.chunk.js",
+    "main.js.map": "/what-to-play/static/js/main.36ac38b3.chunk.js.map",
+    "runtime-main.js": "/what-to-play/static/js/runtime-main.827c6221.js",
+    "runtime-main.js.map": "/what-to-play/static/js/runtime-main.827c6221.js.map",
+    "static/js/2.55a13a23.chunk.js": "/what-to-play/static/js/2.55a13a23.chunk.js",
+    "static/js/2.55a13a23.chunk.js.map": "/what-to-play/static/js/2.55a13a23.chunk.js.map",
+    "static/js/3.53e5c9b3.chunk.js": "/what-to-play/static/js/3.53e5c9b3.chunk.js",
+    "static/js/3.53e5c9b3.chunk.js.map": "/what-to-play/static/js/3.53e5c9b3.chunk.js.map",
+    "index.html": "/what-to-play/index.html",
+    "static/css/main.b22b76be.chunk.css.map": "/what-to-play/static/css/main.b22b76be.chunk.css.map",
+    "static/js/2.55a13a23.chunk.js.LICENSE.txt": "/what-to-play/static/js/2.55a13a23.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.827c6221.js",
+    "static/js/2.55a13a23.chunk.js",
+    "static/css/main.b22b76be.chunk.css",
+    "static/js/main.36ac38b3.chunk.js"
+  ]
+}
